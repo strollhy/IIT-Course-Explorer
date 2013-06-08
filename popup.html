@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>IIT Course Explorer</title>
+      <link rel="stylesheet" type="text/css" href="popup.css">
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+     <script src="jquery-1.9.0.min.js"></script>
+     <script src="popup.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <button id="search-button">Search</button>
+          <input id="search-course" type="text"/>
+        </td>
+      </tr>
+    </table>
+
+    <div id="content"></div>
+  </body>
+</html>
+
