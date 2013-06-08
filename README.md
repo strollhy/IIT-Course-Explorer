@@ -1,4 +1,4 @@
 IIT-Course-Explorer
 ===================
 
-Chrome Extension for Course Searching in IIT
+Chrome Extension for Courses Searching in IIT
